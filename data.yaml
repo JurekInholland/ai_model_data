@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['paddle']
+
+roboflow:
+  workspace: inholland-agkcm
+  project: paddletracker
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/inholland-agkcm/paddletracker/dataset/3
